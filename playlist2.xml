@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+    <title>Ounage Playlist</title>
+    <creator>Dew</creator>
+    <link>http://www.blup.fr/</link>
+    <info>The Best Playlist for Testing</info>
+    <image>covers/tracklist.jpg</image>
+
+    <trackList>
+
+
+		
+		<track>
+          <location>Music/On the Road(feat. Tim Perry)(Live at Shanti).MP3</location>
+          <creator>J-Gilton</creator>
+          <album>The Petting Zoo</album>
+          <title>On the Road(by J-Gilton feat. Tim Perry)(Live at Shanti)</title>
+          <annotation>Acoustic</annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+          <link>http://www.cdbaby.com/cd/JGilton</link>
+        </track>
+
+		<track>
+          <location>Music/If your mother only knew.mp3</location>
+          <creator>Bryan Maher</creator>
+          <album>The Petting Zoo</album>
+          <title>If your mother only knew (Bryan John Maher)</title>
+          <annotation>Acoustic</annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+          <link>http://www.cdbaby.com/cd/JGilton</link>
+        </track>
+		
+
+		<track>
+          <location>Music/Road Song (live at shanti).MP3</location>
+          <creator>Richard Darling</creator>
+          <album>The Petting Zoo</album>
+          <title>Road Song (Richard Darling)(live at shanti)</title>
+          <annotation>Acoustic</annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+          <link>http://www.cdbaby.com/cd/JGilton</link>
+        </track>					
+			       
+				   
+		<track>
+          <location>Music/15 Why Stay.mp3</location>
+          <creator>Bryan John Maher</creator>
+          <album>The Petting Zoo</album>
+          <title>Why Stay (Bryan John Maher)</title>
+          <annotation>Acoustic</annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+          <link>http://www.cdbaby.com/cd/JGilton</link>
+        </track>	
+		
+		<track>
+          <location>Music/behind the mask.mp3</location>
+          <creator>Bryan John Maher</creator>
+          <album>The Petting Zoo</album>
+          <title>Behind the Mask (Bryan John Maher)</title>
+          <annotation>Acoustic</annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+          <link>http://www.cdbaby.com/cd/JGilton</link>
+        </track>						   
+
+		
+		<track>
+          <location>Music/Classical.mp3</location>
+          <creator>Tim Perry</creator>
+          <album>The Petting Zoo</album>
+          <title>Tim's Classical peice (Tim Perry)</title>
+          <annotation>Acoustic</annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+          <link>http://www.cdbaby.com/cd/JGilton</link>
+        </track>	
+		
+		<track>
+          <location>Music/Rich and the Poor.mp3</location>
+          <creator>J-Gilton</creator>
+          <album>The Petting Zoo</album>
+          <title>Rich and the Poor (J-Gilton)</title>
+          <annotation>Acoustic</annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+          <link>http://www.cdbaby.com/cd/JGilton</link>
+        </track>		
+			
+		<track>
+          <location>Music/spark it up tonight.mp3</location>
+          <creator>Bryan John Maher</creator>
+          <album>The Petting Zoo</album>
+          <title>Spark it up tonight (Bryan John Maher)</title>
+          <annotation>Acoustic</annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+          <link>http://www.cdbaby.com/cd/JGilton</link>
+        </track>	
+		
+		<track>
+          <location>Music/Thick as thieves.mp3</location>
+          <creator>Bryan John Maher</creator>
+          <album>The Petting Zoo</album>
+          <title>Thick as thieves (Bryan John Maher)</title>
+          <annotation>Acoustic</annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+          <link>http://www.cdbaby.com/cd/JGilton</link>
+        </track>			
+				
+
+    </trackList>
+</playlist>
