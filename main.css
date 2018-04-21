@@ -1,0 +1,230 @@
+body {
+  background: url("https://img00.deviantart.net/a676/i/2012/246/f/5/boat_by_kidy_kat-d5df4vt.jpg") center center no-repeat #000;
+  background-attachment: fixed;
+}
+
+.name {
+  font-family: "Trade Winds";
+  text-align: center;
+  margin: 0;
+  text-color: black !important;
+}
+.name a {
+  text-decoration: none;
+  color: #FFF;
+}
+@media (max-width: 500px) {
+  .name a span {
+    font-size: 40px;
+  }
+}
+@media (min-width: 500px) {
+  .name a span {
+    font-size: 80px;
+  }
+}
+
+.menu {
+  font-family: "Work Sans";
+  margin: 0 auto;
+  padding: 2px;
+  max-width: 575px;
+  list-style-type: none;
+  background-color: #333;
+  text-align: center;
+  border-radius: 20px;
+}
+@media (max-width: 830px) {
+  .menu li {
+    font-size: 2.5vw;
+  }
+}
+@media (min-width: 830px) {
+  .menu li {
+    font-size: 20px;
+  }
+}
+@media (max-width: 650px) {
+  .menu li {
+    font-size: 16px;
+  }
+}
+.menu li.active {
+  background-color: black;
+}
+@media (max-width: 540px) {
+  .menu span {
+    display: none;
+  }
+}
+
+.active {
+  background-color: #7F959F;
+  border-radius: 20px;
+}
+
+li {
+  display: inline-block;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: background-color 1s ease-in-out;
+  border-radius: 10px;
+}
+li a:hover {
+  background-color: #7F959F;
+  border-radius: 10px;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: auto;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+margin-top: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-image: url(https://jgilton.com/Pictures/Brooklin%20Bridge.jpg);
+  background-size: 700px 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 3;
+}
+@media (min-width: 730px) {
+  footer .easterEgg2 {
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    bottom: 15px;
+    left: 5px;
+    width: 60px;
+    height: 60px;
+    opacity: 0.3;
+    z-index: 4;
+  }
+}
+@media (min-width: 730px) {
+  footer .easterEgg1 {
+    display: none;
+  }
+}
+@media (max-width: 492px) {
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (max-width: 355px) {
+  footer img {
+    width: 20px;
+    height: 30px;
+  }
+}
+
+.easterEgg1 {
+  opacity: 0.1;
+}
+
+#task {
+  display: block;
+  background: #7F959F;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  padding: 5px;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.center-body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+#merch{
+  background-color: grey;
+}
+
+#left {
+ float: left;
+ padding: 1px;
+ margin: auto;
+}
+#right {
+   float: right;
+   padding: 1px;
+}
+.ablumBuy {
+  display: block;
+  font-family: "Work Sans";
+  list-style-type: none;
+  background-color: #333;
+  font-size: 2.8vw;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 10px;
+z-index: 2;
+width: 100px;
+}
+.tshirt {
+  font-family: "Work Sans";
+  list-style-type: none;
+  background-color: #333;
+  font-size: 2.8vw;
+  color: white;
+  padding: 2px;
+  margin: 2px;
+  text-decoration: none;
+  border-radius: 20px;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    bottom: 40%;
+
+
+}
+.button {
+  opacity: 0.7;
+  transition: opacity 1s ease-in-out;
+}
+.button:hover {
+  opacity: 1;
+}
+
+h2, h3 {
+  font-family: "Trade Winds";
+  text-align: center;
+  font-size: 6.5vw;
+  background-color: grey;
+  text-decoration: none;
+  border-radius: 20px;
+  z-index: 0;
+  list-style-type: none;
+}
+h3 a{
+  text-decoration: none;
+  text-align: right;
+}
+.padding {
+  padding-top: : 5px;
+  padding-bottom: 5px;
+}
