@@ -1,0 +1,180 @@
+$hover:  #7F959F;
+$menu-bg: #333;
+
+body {
+  background: url("https://img00.deviantart.net/a676/i/2012/246/f/5/boat_by_kidy_kat-d5df4vt.jpg")
+    center center no-repeat #000;
+  background-attachment: fixed;
+
+} 
+.name {
+  font-family: "Trade Winds";
+  text-align: center;
+  margin: 0;
+  text-color: black !important;
+
+
+  a {
+    text-decoration: none;
+    color: #FFF;
+
+   @media (max-width: 500px) {
+    span {
+      font-size: 40px;
+    }
+    }
+      @media (min-width: 500px) {
+    span {
+      font-size: 80px;
+    }
+    }
+  }
+}
+.menu {
+  font-family: "Work Sans";
+  margin: 0 auto;
+  padding: 2px;
+  max-width: 575px;
+  list-style-type: none;
+  background-color: $menu-bg;
+  text-align: center;
+  border-radius: 20px;
+  @media (max-width: 850px) {
+  li {
+    font-size: 2.5vw;
+  }
+  }
+     @media (min-width: 850px) {
+  li {
+    font-size: 21px;
+  }
+  }
+         @media (max-width: 650px) {
+  li {
+    font-size: 16px;
+  }
+  }
+
+  li.active {
+    background-color: black;
+
+    &.active a {
+      // pointer-events: none;
+      // cursor: none;
+    }
+  }
+
+  @media (max-width: 500px) {
+    span {
+      display: none;
+    }
+    }
+}
+
+.active {
+  background-color: $hover;
+   border-radius: 20px;
+}
+
+li {
+  display: inline-block;
+
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: background-color 1s ease-in-out;
+     border-radius: 20px;
+
+    &:hover {
+      background-color: $hover;
+       border-radius: 20px;
+    }
+  }
+}
+
+footer {
+
+  bottom: 0;
+  left: 0;
+  width: auto;
+  max-width: 700px;
+  margin: 0 auto;
+position: relative;
+  z-index: 0;
+  line-height: 20px;
+  text-align: center;
+  background-image: url(https://jgilton.com/Pictures/Brooklin%20Bridge.jpg) ;
+      background-size: 700px 120px;
+    background-repeat:  no-repeat;
+  background-position: center;
+@media (min-width: 730px) {
+  .easterEgg2{
+  background-size: 50px 50px;
+    background-repeat:  no-repeat;
+
+  position: absolute;
+   display: block;
+  bottom: 15px;
+  left:5px;
+  width: 60px;
+  height: 60px;
+  opacity: 0.3;
+  }
+}
+      @media (max-width: 492px) {
+    img {
+      width: 30px;
+      height: 30px;
+    }
+    }
+   @media (max-width: 355px) {
+    img {
+      width: 20px;
+      height: 30px;
+    }
+    }
+}
+
+#task {
+  display: block ;
+  background: #7F959F;
+text-align: left;
+      margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+   ul,
+  h2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+.center-image {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  opacity: 0.7;
+}
+
+.button {
+  opacity: 0.7;
+  transition: opacity 1s ease-in-out;
+
+  &:hover {
+      opacity: 1;
+  }
+}
+h3 {
+  text-align: center;
+  color: white;
+  background-color: grey;
+   opacity: 0.7;
+}
