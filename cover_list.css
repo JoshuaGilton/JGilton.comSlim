@@ -191,6 +191,11 @@ li a:hover {
   border-radius: 10px;
 }
 
+.style7 {
+  display: block;
+  background-color: grey;
+}
+
 footer {
   bottom: 0;
   left: 0;
