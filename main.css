@@ -4,6 +4,12 @@ body {
   background-attachment: fixed;
   background-size: 90%;
 }
+.dragonBody {
+
+  background: url("/Pictures/dradonfly logo.png") center center no-repeat #000;
+  background-attachment: fixed;
+  background-size: 90%;
+}
 
 .name {
   font-family: "Trade Winds";
@@ -181,6 +187,7 @@ li {
   margin-top: 10px;
   margin-bottom: 15px;
   position: relative;
+  background: rgba(255,250,250, 0.6);
 }
 #merch{
   background-color: grey;
